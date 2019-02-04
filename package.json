@@ -1,0 +1,57 @@
+{
+  "name": "react_bootstrap_prisedaka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --color --watchAll",
+    "babel-node": "babel-node",
+    "eslint": "eslint",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "flow": "flow",
+    "flow-typed": "flow-typed",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "debug": "^3.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jest": "^21.15.0",
+    "flow-bin": "^0.57",
+    "flow-typed": "^2.4.0",
+    "jest": "^22",
+    "jest-cli": "^22.4.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "make": "^0.8.1",
+    "react-bootstrap": "^1.0.0-beta.5"
+  },
+  "bin": {
+    "gendiff": "dist/bin/gendiff.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "description": "<a href=\"https://codeclimate.com/github/Prisedaka/project-lvl2-s285/maintainability\"><img src=\"https://api.codeclimate.com/v1/badges/6ca15152e1d36a8bee14/maintainability\" /></a> [![Build Status](https://travis-ci.org/Prisedaka/project-lvl2-s285.svg?branch=master)](https://travis-ci.org/Prisedaka/project-lvl2-s285)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prisedaka/project-lvl2-s285.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Prisedaka/project-lvl2-s285/issues"
+  },
+  "homepage": "https://github.com/Prisedaka/project-lvl2-s285#readme"
+}
